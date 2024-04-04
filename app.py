@@ -12,7 +12,7 @@ import plotly.graph_objs as go
 
 # %%
 #import data
-data= pd.read_csv('/Users/carolinelowenstein/Desktop/everything/DS/final project code/UPDATED_data.csv')
+data= pd.read_csv('UPDATED_data.csv')
 
 # %%
 # build a bar chart
