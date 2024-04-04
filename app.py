@@ -83,6 +83,7 @@ all_milk_options = {
 
 stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 app = Dash(__name__, external_stylesheets=stylesheets)
+server = app.server
 
 app.layout = html.Div([
 
